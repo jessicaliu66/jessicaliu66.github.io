@@ -11,6 +11,7 @@ output:
 Here's a gif of elmo
 
 ![](https://media.giphy.com/media/drXGoW1iudhKw/giphy.gif)
+
 You can add text
 
 * and lists
