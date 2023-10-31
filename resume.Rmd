@@ -1,0 +1,91 @@
+---
+title: "Ziqiu Liu's resume"
+output: 
+  html_document:
+    toc: true
+    toc_float: true
+---
+
+---------------------
+
+# **EDUCATION**
+
+## Columbia University, Mailman School of Public Health, New York
+
+_M.S. Biostatistics, Public Health Data Science Track_	
+
+Sep 2023 - Jun 2025 (Expected)
+
+**Coursework in Progress:** Probability, Data Science I, Biostatistical Methods I, Principles of Epidemiology.
+
+**Expected Coursework (Spring 2024):** Data Science II, Biostatistical Methods II, Statistical Inference, Relational Databases and SQL Programming.
+
+## Shanghai Jiao Tong University, School of Biomedical Engineering, Shanghai, China
+
+_B.E. Biomedical Engineering_	
+
+Sep 2019 - Jun 2023
+
+**Relevant Coursework:** Probability and Statistics, Introduction of Biomedical Statistics, Linear Algebra, Calculus, Thinking and Approach of Programming, Artificial Intelligence and Medical Engineering.
+
+---------------------
+
+# **SKILLS**
+
+**Data Analysis and Programming:** R, Python, MATLAB, C++, SPSS
+
+**Computer:** Microsoft Office (Excel, PowerPoint, Word)
+
+**Languages:** Chinese (Native), English (Proficient)
+
+---------------------
+
+# **ACADEMIC RESEARCH AND DATA ANALYSIS PROJECTS**
+
+## The Effects of Task Difficulty on EEG α Rhythm in Visual Spatial Attention	
+
+Nov 2022 – Jun 2023
+
+* Individually recruited over 30 subjects and conducted experiments to collected behavioral and EEG data.
+
+* Computed the behavioral and α-related parameters of 22 subjects in MATLAB and examined the effects of task difficulty and laterality using t-test and ANOVA in SPSS.
+
+* Proved previous findings that α modulation in visual spatial attention depends on subject’s α power level.
+
+* Provided evidence for a possible non-linear relationship between task difficulty and α modulation.
+
+## Biomechanical Study of Gait in CSM based on Wearable Technology	
+
+Feb 2022 – Jul 2022
+
+* Computed the gait parameters of 15 CSM patients and 32 healthy controls in MATLAB and selected the parameters with significant differences between the two groups using t-test.
+
+* Conducted dimensionality reduction by excluding highly correlated parameters using correlation heatmap.
+
+* Helped proposed a sorting method with 81% accuracy to distinguish CSM patients from healthy subjects by their gait features.
+
+## Preliminary Study on the Neuroimages of Split-brain Patients	 
+
+Apr 2021 – Oct 2021
+
+* Analyzed fMRI and DTI data of split-brain patients using professional software and MATLAB.
+
+* Evaluated brain connectivity changes in four patients undergoing callosotomy surgery using paired t-test.
+
+* Identified possible relationships between their functional and structural brain connectivity changes.
+
+---------------------
+
+# **LEADERSHIP**
+
+## Group Leader - A Survey on District Power Supply During the Pandemic	
+
+Jul 2020
+
+Huangpu District, Guangzhou, China
+
+* Led a team of six to organized the survey during the COVID-19 pandemic.
+
+* Conducted face-to-face interview with staff members at the Power Supply Bureau of Huangpu District.
+
+* Wrote a report on power supply of Huangpu District during the pandemic.

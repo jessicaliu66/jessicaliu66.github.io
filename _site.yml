@@ -3,10 +3,10 @@ output_dir: "."
 navbar:
   title: "Home"
   right:
-    - text: "About"
-      href: about.html # DON'T use capital letters here!
-#    - text: "Projects"
-#      href: projects.html
+#    - text: "About"
+#      href: about.html # DON'T use capital letters here!
+    - text: "Resume"
+      href: resume.html
 #    - text: "Plotly"
 #      href: plotly.html
 #    - text: "Dashboard"

@@ -6,43 +6,20 @@ output:
     toc_float: true
 ---
 
-# This is Jessica's website
+-------------------
 
-Here's a gif of elmo
+# This is Ziqiu Liu's website
 
-![](https://media.giphy.com/media/drXGoW1iudhKw/giphy.gif)
+Hello and welcome!
 
-You can add text
+![](https://media.tenor.com/NhT7sjXfknYAAAAC/hello-welcome.gif)
 
-* and lists
-* with extra bullets
+This is a personal website created for [P8105](https://p8105.com).
 
-You can *FORMAT* and **bold**
+* There's an [Resume](resume.html) page which contains my academic and professional experience.
 
-This is a [link](https://www.google.com/) to a good data science tool.
-Here's a link to [P8105](https://p8105.com).
-* A link to another page on this website:
-Here's a link to the [about](about.html) page
+* There's a [Dashboard](dashboard.html) page which contains some plots.
 
-You can also still use R!
-
-```{r}
-library(tidyverse)
-
-plot_df =
-  tibble(
-    x = runif(100),
-    y = 1 + 2 * x + rnorm(100)
-  )
-
-plot_df |>
-  ggplot(aes(x = x, y = y)) +
-  geom_point()
-```
+* My [email](zl3386@cumc.columbia.edu) and [Github](http://github.com/jessicaliu66/) page are attached to the icons on the top-right!
 
 
-## Here's a new section
-
-The tool is Google. This is Google:
-
-![](images/google.png)
