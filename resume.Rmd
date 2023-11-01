@@ -32,11 +32,11 @@ Sep 2019 - Jun 2023
 
 # **SKILLS**
 
-**Data Analysis and Programming:** R, Python, MATLAB, C++, SPSS
+* **Data Analysis and Programming:** R, Python, MATLAB, C++, SPSS
 
-**Computer:** Microsoft Office (Excel, PowerPoint, Word)
+* **Computer:** Microsoft Office (Excel, PowerPoint, Word)
 
-**Languages:** Chinese (Native), English (Proficient)
+* **Languages:** Chinese (Native), English (Proficient)
 
 ---------------------
 

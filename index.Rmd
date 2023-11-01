@@ -1,5 +1,5 @@
 ---
-title: "My awesome website"
+title: "This is Ziqiu Liu's website"
 output: 
   html_document:
     toc: true
@@ -8,9 +8,8 @@ output:
 
 -------------------
 
-# This is Ziqiu Liu's website
 
-Hello and welcome!
+## Hello and welcome!
 
 ![](https://media.tenor.com/NhT7sjXfknYAAAAC/hello-welcome.gif)
 

@@ -1,0 +1,76 @@
+---
+title: "I like yogurt, so here's a dashboard about yogurt! (using the Instacart dataset)"
+output: 
+  flexdashboard::flex_dashboard:
+    orientation: columns
+    vertical_layout: fill
+---
+
+```{r setup, include=FALSE}
+library(flexdashboard)
+
+library(tidyverse)
+library(plotly)
+library(p8105.datasets)
+```
+
+```{r}
+data("instacart")
+
+instacart = 
+  instacart |> 
+  as_tibble()
+
+```
+
+Column {data-width=650}
+-----------------------------------------------------------------------
+
+### Top 10 most popular yogurt
+
+```{r}
+instacart |>
+  filter(aisle == "yogurt") |>
+  count(product_name) |> 
+  mutate(rank = min_rank(desc(n))) |> 
+  filter(rank <= 10) |> 
+  #arrange(desc(n)) |>
+  mutate(product_name = fct_reorder(product_name, n, .desc = TRUE)) |>
+  plot_ly(
+    x = ~product_name, y = ~n, type = "bar",
+    color = ~product_name, colors = "viridis"
+  ) |>
+  layout(xaxis = list(title = "", showticklabels = FALSE))
+```
+
+### When do people feel like some yogurt?
+
+```{r}
+instacart |>
+  filter(aisle == "yogurt") |>
+  count(order_hour_of_day) |>
+  mutate(text_label = str_c("Hour of the day: ", order_hour_of_day, "\nNumber of orders: ", n)) |> 
+  plot_ly(
+    x = ~order_hour_of_day, y = ~n, text = ~text_label, type = 'scatter',
+    mode = 'line+markers', line = list(color = 'blue', width = 2)
+  )
+```
+
+Column {data-width=350}
+-----------------------------------------------------------------------
+
+### Order numbers for top 10 products of each dairy aisles
+
+```{r}
+instacart |>
+  filter(aisle %in% c("yogurt", "milk", "cream", "packaged cheese")) |>
+  group_by(aisle) |>
+  count(product_name) |>
+  mutate(rank = min_rank(desc(n))) |> 
+  filter(rank <= 10) |> 
+  mutate(aisle = factor(aisle, levels = c("yogurt", "milk", "cream", "packaged cheese"))) |>
+  plot_ly(
+    x = ~aisle, y = ~n, type = "box",
+    color = ~aisle, colors = "viridis", showlegend = FALSE
+  ) 
+```
